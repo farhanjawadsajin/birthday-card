@@ -8,23 +8,7 @@
 
     --yellow-flame: #ffc94d;
     --white-flame: #fff6d1;
-}
 
-/* --- Body & Background Pattern --- */
-body {
-    margin: 0;
-    font-family: 'Cute Font', cursive;
-    background-color: var(--oled-black);
-    background-image: 
-        radial-gradient(circle at 20% 20%, rgba(255,92,141,0.1) 10%, transparent 11%),
-        radial-gradient(circle at 80% 80%, rgba(255,92,141,0.1) 10%, transparent 11%),
-        radial-gradient(circle at 50% 50%, rgba(255,120,200,0.05) 5%, transparent 6%);
-    background-size: 60px 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    text-align: center;
     overflow: hidden;
     font-size: 1em;
     color: var(--title-pink);
@@ -275,4 +259,5 @@ function startConfetti() {
         confetti.style.left = Math.random() * 100 + '%';
         confetti.style.animationDelay = (Math.random() * 3) + 's';
         wrapper.appendChild
+
 
